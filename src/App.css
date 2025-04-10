@@ -1,5 +1,73 @@
+/* Light Mode (Default) */
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+.dark-mode .App {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Global Dark Mode Styles */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode .home-section {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode .intro-container {
+  color: #ffffff;
+}
+
+.dark-mode .intro-container h1 {
+  color: #ffffff;
+}
+
+.dark-mode .intro-container p {
+  color: #e2e8f0;
+}
+
+.dark-mode .skills-section {
+  background-color: #1a1a1a;
+}
+
+.dark-mode .skills-section h2 {
+  color: #ffffff;
+}
+
+.dark-mode .skills-category {
+  background-color: #2d3748;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .skills-category h3 {
+  color: #ffffff;
+}
+
+.dark-mode .skill-card {
+  background-color: #4a5568;
+}
+
+.dark-mode .skill-card:hover {
+  background-color: #2d3748;
+}
+
+.dark-mode .skill-card span {
+  color: #e2e8f0;
+}
+
+/* Ensure smooth transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .App-logo {
